@@ -1,0 +1,9 @@
+Building Ferncoin
+
+See doc/readme-qt.rst for instructions on building Ferncoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Ferncoin.
+
+See doc/build-*.txt for instructions on building ferncoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Ferncoin.
