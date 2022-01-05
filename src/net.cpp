@@ -1173,7 +1173,6 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-	{"online-server.cloud", "c93f141.online-server.cloud"},
     {NULL, NULL}
 };
 
@@ -1226,7 +1225,7 @@ void ThreadDNSAddressSeed()
 
 unsigned int pnSeed[] =
 {
-    0x0
+    0xb92ad04a
 };
 
 void DumpAddresses()
