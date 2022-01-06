@@ -7,3 +7,4 @@ when make is finished do: cd ..
 do qmake
 and then make
 that should make the qt wallet, to run it do ./ferncoin-qt
+to run the command line daemon run ferncoind in the src folder with ./ferncoind
