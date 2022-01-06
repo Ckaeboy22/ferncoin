@@ -1,0 +1,14 @@
+goto https://pastebin.com/wV5M1DSz and run all the commands
+or do all these
+
+MAKE SURE TO RUN THIS FIRST: sudo add-apt-repository ppa:bitcoin/bitcoin
+AND THIS SECOND: sudo apt-get update
+sudo apt-get install build-essential gcc make perl dkms libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libboost-all-dev software-properties-common libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqt4-dev libprotobuf-dev openssl1.0 libssl1.0-dev
+
+then clone ferncoin with: git clone https://github.com/cole1234/ferncoin.git
+cd to ferncoin/src with: cd ferncoin/src
+make -f makefile.unix to compile
+when make is finished do: cd ..
+do qmake
+and then make
+that should make the qt wallet, to run it do ./ferncoin-qt
