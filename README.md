@@ -1,4 +1,4 @@
-# FernCoin
+# ferncoin
  Fast Crypto Currency based on LiteCoin.
 
 
