@@ -13,7 +13,7 @@ packages:
 - "faketime"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/ferncoin-project/ferncoin.git"
+- "url": "https://github.com/cole1234/ferncoin.git"
   "dir": "ferncoin"
 files:
 - "qt-win32-4.8.5-gitian-r8.zip"
